@@ -19,8 +19,7 @@ end
 db = nil
 ARGV.each{ |a| db = a.split("=").last if a.split("=").first.to_s.downcase == "database" }
 if db.nil? || !db[/(mysql|sqlite)/]
-  puts "PLEASE SPECIFY EITHER: database=mysql or database=sqlite"
-  return # We're done here
+  abort "PLEASE SPECIFY EITHER: database=mysql or database=sqlite" # We're done here
 end
 
 # Setup mysql if specified
