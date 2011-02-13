@@ -1,0 +1,35 @@
+= 01. Database Agnostic
+
+Using ActiveRecord as an ORM to connect to data sources it makes it very easy to move from one database to another.
+
+In this example we'll go from using a sqlite3 database to using a mysql database by changing a few lines of code.
+
+== Dependencies
+
+=== System
+
+* ruby 1.8.7 or greater
+* mysql
+* sqlite
+
+=== Gems
+
+* rubygems
+* activerecord 3.0.3 or greater
+* mysql gem
+* sqlite3-ruby gem
+
+== Usage
+
+ruby src/01-database-agnostic.rb database=mysql
+OR
+ruby src/01-database-agnostic.rb database=sqlite
+
+== Digging In
+
+* If you need to change your mysql setting, they are set around line 22
+* Log files will be created for each case. (mysql.log and sqlite.log)
+
+== Misc
+
+While the example file is a little bloated it's goal is to show the whole process in a single file. Rails has conventions on where to abstract these pieces out to when using that framework.
