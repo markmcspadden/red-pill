@@ -1,0 +1,25 @@
+= Red Pill
+
+All I'm offering is the truth.
+
+Red Pill is my humble attempt to show off some of the bright spots in Ruby and Rails development, especially as they pertain to concerns of building applications that are flexible and scalable.
+
+== Proving Ruby and Rails to the Enterprise
+
+I work for a large company (let's call them LargeCo) and our "little" Rails projects are starting to get attention from the "more established" areas of software development in our organization.
+
+We are starting to get lots of questions about the "how" and "why" behind Ruby and Rails and what happens when these projects get "very successful" and need to become part of the "core" software and services.
+
+I'm not going to lie, my reflex mental response to this "interest" is something similar to:
+
+"Leave me alone and don't mess with my tools and process. They work really well and that's all you need to know."
+
+But after I settle down just a bit, I come to something closer to:
+
+"Let me show you how awesome, modular, and flexible our tools are...but I need to warn you...once you see how great life can be, there is no going back and you may start to question everything you know."
+
+And that's what this project is all about: displaying the power and flexibility of Ruby and Rails (both its components and its whole) and demonstrating that it is more than just a viable option for the enterprise, but that it's a great option for many types of projects.
+
+== Table of Contents
+
+* 01-database-agnostic: Show how easy it to switch from using one database backend to another.
